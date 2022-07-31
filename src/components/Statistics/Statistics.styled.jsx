@@ -1,19 +1,14 @@
-// import styled from '@emotion/styled';
-import styled from 'styled-components';
+import styled from '@emotion/styled';
 
-export const Section = styled.div`
-  display: flex;
-  width: 300px;
-  flex-direction: column;
-  margin: 0 auto;
-  align-items: flex-start;
-  padding-left: 10px;
-  background-color: rgb(218, 194, 216);
-  border: 1px solid grey;
-  border-radius: 4px;
+export const StatisticsList = styled.ul`
+  list-style: none;
+  padding-left: 85px;
 `;
 
-export const Text = styled.p`
-  margin: 5px;
-  font-size: 20px;
+export const StatisticsItem = styled.li`
+  text-align: left;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #212121;
 `;

@@ -1,12 +1,11 @@
-// import styled from '@emotion/styled';
-import styled from 'styled-components';
+import styled from '@emotion/styled';
 
-export const Container = styled.div`
-  margin: 10px auto;
+export const SectionContainer = styled.section`
+  width: 500px;
+  margin: 0 auto;
   text-align: center;
 `;
 
-export const Title = styled.h2`
-  color: rgb(15, 15, 110);
-  font-size: 36px;
+export const SectionTitle = styled.h2`
+  font-size: 32px;
 `;
